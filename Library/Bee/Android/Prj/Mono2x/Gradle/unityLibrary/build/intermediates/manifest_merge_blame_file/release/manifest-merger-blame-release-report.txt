@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+12-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+13    <uses-feature
+13-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-63
+15        android:required="false" />
+15-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+17-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-77
+18-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-74
+19
+20    <uses-feature
+20-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+21        android:name="android.hardware.touchscreen"
+21-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+22        android:required="false" />
+22-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+23    <uses-feature
+23-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+25        android:required="false" />
+25-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+26    <uses-feature
+26-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+28        android:required="false" />
+28-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+29
+30    <application android:extractNativeLibs="true" >
+30-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+30-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+31        <activity
+31-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+32            android:name="com.unity3d.player.UnityPlayerActivity"
+32-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+33-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+34            android:hardwareAccelerated="false"
+34-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:396-431
+35            android:launchMode="singleTask"
+35-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+36            android:resizeableActivity="true"
+36-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-395
+37            android:screenOrientation="fullUser"
+37-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+38            android:theme="@style/UnityThemeSelector" >
+38-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+39            <intent-filter>
+39-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+40-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+42-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+43            </intent-filter>
+44
+45            <meta-data
+45-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+46                android:name="unityplayer.UnityActivity"
+46-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+47                android:value="true" />
+47-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+48            <meta-data
+48-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-130
+49                android:name="WindowManagerPreference:FreeformWindowSize"
+49-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-75
+50                android:value="@string/FreeformWindowSize_maximize" />
+50-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:76-127
+51            <meta-data
+51-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-145
+52                android:name="WindowManagerPreference:FreeformWindowOrientation"
+52-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-82
+53                android:value="@string/FreeformWindowOrientation_landscape" />
+53-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:83-142
+54            <meta-data
+54-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-78
+55                android:name="android.notch_support"
+55-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-54
+56                android:value="true" />
+56-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+57        </activity>
+58
+59        <meta-data
+59-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+60            android:name="unity.splash-mode"
+60-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+61            android:value="0" />
+61-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+62        <meta-data
+62-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+63            android:name="unity.splash-enable"
+63-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+64            android:value="True" />
+64-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+65        <meta-data
+65-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+66            android:name="unity.launch-fullscreen"
+66-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+67            android:value="True" />
+67-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+68        <meta-data
+68-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-83
+69            android:name="unity.allow-resizable-window"
+69-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+70            android:value="True" />
+70-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-80
+71        <meta-data
+71-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+72            android:name="notch.config"
+72-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+73            android:value="portrait|landscape" />
+73-->C:\Users\Princ\Documents\Universidad\Unity\Rolling Sphere\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+74    </application>
+75
+76</manifest>
